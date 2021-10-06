@@ -27,7 +27,7 @@ public class Orden {
     public void mostrarOrden(){
         System.out.println("Orden: " +id_Orden);
         for (int i = 0; i < Orden.contadorComputadoras; i++) {
-            System.out.println("Número de ordenadores: " + Arraycomputadoras[i]);
+            System.out.println("Ordenador: " + Arraycomputadoras[i]);
             System.out.println("");
         }
     
