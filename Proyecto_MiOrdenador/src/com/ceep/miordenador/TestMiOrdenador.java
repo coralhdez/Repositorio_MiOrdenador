@@ -17,8 +17,8 @@ public class TestMiOrdenador {
         Raton raton1 = new Raton("USB","HP");
         Raton raton2 = new Raton("USB","Logitech");
         
-        Teclado teclado1 = new Teclado("Cable", "HP");
-        Teclado teclado2 = new Teclado("Cable", "Logitech");
+        Teclado teclado1 = new Teclado("USB", "HP");
+        Teclado teclado2 = new Teclado("USB", "Logitech");
         
         Monitor monitor1 = new Monitor("HP", 27);
         Monitor monitor2 = new Monitor("LG", 29);

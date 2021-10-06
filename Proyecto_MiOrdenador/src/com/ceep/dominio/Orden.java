@@ -6,7 +6,7 @@ public class Orden {
     Computadora Arraycomputadoras[];
     private static int contadorOrdenes;
     private static int contadorComputadoras;
-    private int max_computadoras = 5;
+    private static final int max_computadoras = 4;
 
     //CONSTRUCTORES
     public Orden() {
@@ -25,7 +25,7 @@ public class Orden {
     }
     
     public void mostrarOrden(){
-        System.out.println("Orden: " +id_Orden);
+        System.out.println("Orden: " + this.id_Orden);
         for (int i = 0; i < Orden.contadorComputadoras; i++) {
             System.out.println("Ordenador: " + Arraycomputadoras[i]);
             System.out.println("");

@@ -1,15 +1,12 @@
-
 package com.ceep.dominio;
 
-
 public class DispositivoEntrada {
-    
+
     private String tipoEntrada;
     private String marca;
-    
+
     //CONSTRUCTOR
-    
-    public DispositivoEntrada(String tipoEntrada, String marca){
+    public DispositivoEntrada(String tipoEntrada, String marca) {
         this.tipoEntrada = tipoEntrada;
         this.marca = marca;
     }
@@ -29,13 +26,10 @@ public class DispositivoEntrada {
     public void setMarca(String marca) {
         this.marca = marca;
     }
-    
-    
 
     @Override
     public String toString() {
         return "DispositivoEntrada{" + "tipoEntrada=" + tipoEntrada + ", marca=" + marca + '}';
     }
-    
-    
+
 }

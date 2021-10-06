@@ -14,7 +14,7 @@ public class Raton extends DispositivoEntrada{
 
     @Override
     public String toString() {
-        return "Raton{" + "idRaton=" + idRaton + '}';
+        return  "Raton{" + "idRaton=" + idRaton + super.toString();
     }
 
 }
